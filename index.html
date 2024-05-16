@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Yeseva+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!--Header-->
+    <header class="header">
+      <div class="container header__inner">
+        <a href="#" class="logo"
+          ><img src="/images/logo.png" alt="" class="logo__img"
+        /></a>
+
+        <nav class="menu header__menu">
+          <button class="menu__btn">
+            <span></span><span></span><span></span><span></span><span></span>
+          </button>
+          <ul class="menu__list header__menu--list">
+            <li class="menu__list-item">
+              <a href="#" class="menu__list-link">Nosotros</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#" class="menu__list-link">Catalogo</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#" class="menu__list-link">Equipo</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#" class="menu__list-link">Reseñas</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#" class="menu__list-link">Cursos</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#" class="menu__list-link">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+
+        <a href="tel:+34633658858" class="phone">+34 633 65 88 58</a>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="top">
+        <div class="container top__inner">
+          <div class="top__content">
+            <h3 class="top__title">
+              ¡Crea una atmósfera de comodidad y armonía!
+            </h3>
+            <p class="top__text">
+              Crea un ambiente especial en tu hogar con nuestros productos
+              ecológicos y de alta calidad con cera de soja 100% natural.
+            </p>
+            <button class="top__buy">Comprar</button>
+          </div>
+
+          <picture class="top__img">
+            <source srcset="/images/top-s.png" media="(max-width:360px)" />
+            <source srcset="/images/top-m.png" media="(max-width:480px)" />
+            <img class="top__img-l" src="/images/top-l.png"
+          /></picture>
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="container about__inner">
+          <div class="about__content">
+            <h2 class="about__title title">Nosotros</h2>
+            <p class="about__text">
+              Bohdan es un creador de marcas que siempre está interesado en
+              hacer varias cosas en casa. Experimentaba regularmente con
+              diferentes materiales y herramientas, probando muchos campos,
+              incluida la fabricación de velas.
+            </p>
+            <p class="about__text">
+              La cera de soja se elabora a partir de semillas de soja cultivadas
+              en Dinamarca y este tipo de cera es respetuosa con el medio
+              ambiente y segura para la salud.
+            </p>
+          </div>
+          <ul class="about__list section--decor">
+            <li class="about__item">
+              <img
+                src="/images/about-1.jpg"
+                alt=""
+                class="about__item-img about__item-img--1"
+              />
+              <p class="about__item-text">Disfrutar del momento</p>
+            </li>
+            <li class="about__item">
+              <img
+                src="/images/about-2.png"
+                alt=""
+                class="about__item-img about__item-img--2"
+              />
+              <p class="about__item-text">Crea tu atmósfera favorita</p>
+            </li>
+            <li class="about__item">
+              <img
+                src="/images/about-3.jpg"
+                alt=""
+                class="about__item-img about__item-img--3"
+              />
+              <p class="about__item-text">Hecho con amor</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="products section">
+        <div class="container section__inner">
+          <div class="products__descr section__descr">
+            <h2 class="products__title title">Nuestros productos</h2>
+            <p class="products__text section__text">
+              Utilizamos sólo materiales de la mejor calidad: cera de soja,
+              tintes de cera, aceites aromáticos de alta calidad y mechas de
+              algodón. Los tonos de las velas se combinan muy armoniosamente con
+              el aroma, creando un ambiente inolvidable en tu hogar.
+            </p>
+          </div>
+          <div class="products__content section__content-descr section--decor">
+            <div class="products__item">
+              <img
+                src="images/product-1.jpg"
+                alt=""
+                class="products__item-img"
+              />
+              <p class="products__item-price">10$</p>
+              <h4 class="products__item-title">"Corazón de amor"</h4>
+              <p class="products__item-text">
+                Olor: delicado aroma a rosa y vainilla. Por qué: para una
+                atmósfera romántica
+              </p>
+              <button class="button">Comprar</button>
+            </div>
+            <div class="products__item">
+              <img
+                src="images/product-2.jpg"
+                alt=""
+                class="products__item-img"
+              />
+              <p class="products__item-price">20$</p>
+              <h4 class="products__item-title">"Torbellino de amor"</h4>
+              <p class="products__item-text">
+                Olor: delicado aroma a lavanda. Por qué: para crear una
+                atmósfera de confort.
+              </p>
+              <button class="button">Comprar</button>
+            </div>
+            <div class="products__item">
+              <img
+                src="images/product-3.jpg"
+                alt=""
+                class="products__item-img"
+              />
+              <p class="products__item-price">10$</p>
+              <h4 class="products__item-title">"Arcoíris"</h4>
+              <p class="products__item-text">
+                Olor: Aroma a lima fresca. Por qué: para obtener energía y
+                frescura en la habitación.
+              </p>
+              <button class="button">Comprar</button>
+            </div>
+            <div class="products__item">
+              <img
+                src="images/product-4.jpg"
+                alt=""
+                class="products__item-img"
+              />
+              <p class="products__item-price">10$</p>
+              <h4 class="products__item-title">"Encanto femenino"</h4>
+              <p class="products__item-text">
+                Olor: delicado aroma a lavanda y fresia. Por qué: por comodidad
+                y comodidad.
+              </p>
+              <button class="button">Comprar</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="steps section">
+        <div class="container section__inner">
+          <div class="steps__descr section__descr">
+            <h2 class="steps__title title">Etapas de creación de velas.</h2>
+            <p class="steps__text section__text">
+              Crear una vela con cera de soja puede consistir las siguientes
+              etapas:
+            </p>
+          </div>
+          <ol class="steps__list section__content-descr section--decor">
+            <li class="steps__item steps__item--odd">
+              <p class="steps__item-text">
+                Preparación de materiales: pequeños fragmentos de cera de soja,
+                mecha de vela, aromas, tintes y otros materiales adicionales.
+              </p>
+              <img src="images/s1.jpg" alt="" class="steps__item-img" />
+            </li>
+            <li class="steps__item steps__item--odd">
+              <p class="steps__item-text">
+                Preparación del formulario: elegir un formulario para una vela y
+                prepararlo para llenarlo con cera.
+              </p>
+              <img src="images/s2.jpg" alt="" class="steps__item-img" />
+            </li>
+            <li class="steps__item steps__item--even">
+              <img src="images/s3.jpg" class="steps__item-img" alt="" />
+              <p class="steps__item-text">
+                Preparación de la cera: derretir cera de soja en un dispositivo
+                de fusión a la temperatura deseada. Adición de aromas y
+                colorantes si es necesario.
+              </p>
+            </li>
+            <li class="steps__item steps__item--even">
+              <img src="images/s4.jpg" class="steps__item-img" alt="" />
+              <p class="steps__item-text">
+                Preparación de la mecha: Introducir la mecha en el molde y
+                asegurarla para que quede tensada uniformemente.
+              </p>
+            </li>
+            <li class="steps__item steps__item--odd">
+              <p class="steps__item-text">
+                Preparación de materiales: pequeños fragmentos de cera de soja,
+                mecha de vela, aromas, tintes y otros materiales adicionales.
+              </p>
+              <img src="images/s5.jpg" alt="" class="steps__item-img" />
+            </li>
+            <li class="steps__item steps__item--odd">
+              <p class="steps__item-text">
+                Llenado del molde: vierte la cera en el molde hasta llenarlo por
+                completo. Espera hasta que endurezca.
+              </p>
+              <img src="images/s6.jpg" alt="" class="steps__item-img" />
+            </li>
+            <li class="steps__item steps__item--even">
+              <img src="images/s7.jpg" class="steps__item-img" alt="" />
+              <p class="steps__item-text">
+                Preparación de la cera: derretir cera de soja en un dispositivo
+                de fusión a la temperatura deseada. Adición de aromas y
+                colorantes si es necesario.
+              </p>
+            </li>
+            <li class="steps__item steps__item--even">
+              <img src="images/s8.jpg" class="steps__item-img" alt="" />
+              <p class="steps__item-text">
+                Preparación de la mecha: Introducir la mecha en el molde y
+                asegurarla para que quede tensada uniformemente.
+              </p>
+            </li>
+            <li class="steps__item steps__item--odd">
+              <p class="steps__item-text">
+                Preparación de materiales: pequeños fragmentos de cera de soja,
+                mecha de vela, aromas, tintes y otros materiales adicionales.
+              </p>
+              <img src="images/s9.jpg" alt="" class="steps__item-img" />
+            </li>
+            <li class="steps__item steps__item--odd">
+              <p class="steps__item-text">
+                Llenado del molde: vierte la cera en el molde hasta llenarlo por
+                completo. Espera hasta que endurezca.
+              </p>
+              <img src="images/s10.jpg" alt="" class="steps__item-img" />
+            </li>
+          </ol>
+        </div>
+      </section>
+      <section class="courses section">
+        <div class="container section__inner">
+          <div class="section__descr">
+            <h2 class="title">Nuestros cursos</h2>
+            <p class="section__text">
+              Nuestros cursos te permiten dar el primer paso en una nueva
+              carrera o profundizar tus conocimientos en tu campo, desarrollarte
+              como profesional y mejorar la calidad de tu vida.
+            </p>
+          </div>
+          <div class="products__content section__content-descr section--decor">
+            <div class="products__item">
+              <img
+                src="images/course-1.jpg"
+                alt=""
+                class="products__item-img"
+              />
+              <h4 class="products__item-title">
+                Los conceptos básicos creación.
+              </h4>
+              <p class="products__item-text">
+                Enseñaremos los conceptos básicos de la elaboración de velas
+                diferentes.
+              </p>
+              <button class="button">Comprar curso</button>
+            </div>
+            <div class="products__item">
+              <img
+                src="images/course-2.jpg"
+                alt=""
+                class="products__item-img"
+              />
+              <h4 class="products__item-title">El arte de la aromaterapia</h4>
+              <p class="products__item-text">
+                Estudiaremos el arte de la aromaterapia y la elaboración de
+                velas con diferentes aromas.
+              </p>
+              <button class="button">Comprar curso</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="team section">
+        <div class="container section__inner">
+          <div class="section__descr">
+            <h2 class="title">Nuestros profesores</h2>
+            <p class="section__text">
+              Estas personas trabajan juntas para crear cursos que le ayudarán a
+              iniciar su propio negocio o pasatiempo.
+            </p>
+          </div>
+          <div class="team__content section__content-descr">
+            <div class="team__item">
+              <img src="images/team-1.jpg" alt="" class="team__img" />
+              <div class="team__item-box">
+                <p class="team__item-name">Profesor Bohdan</p>
+                <p class="team__item-descr">
+                  Tiene 4 años de experiencia docente y laboral.
+                </p>
+              </div>
+            </div>
+            <div class="team__item">
+              <img src="images/team-2.jpg" alt="" class="team__img" />
+              <div class="team__item-box">
+                <p class="team__item-name">Profesora Anna</p>
+                <p class="team__item-descr">
+                  Tiene 6 años de experiencia docente y laboral.
+                </p>
+              </div>
+            </div>
+            <div class="team__item">
+              <img src="images/team-3.jpg" alt="" class="team__img" />
+              <div class="team__item-box">
+                <p class="team__item-name">Profesora Galina</p>
+                <p class="team__item-descr">
+                  Imparte el campo del diseño y la decoración.
+                </p>
+              </div>
+            </div>
+            <div class="team__item">
+              <img src="images/team-4.jpg" alt="" class="team__img" />
+              <div class="team__item-box">
+                <p class="team__item-name">Profesora Olga</p>
+                <p class="team__item-descr">Te ayudará con la publicidad.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="feedback section">
+        <div class="container section__inner">
+          <div class="feedback__descr section__descr">
+            <h2 class="title">Comentarios de los clientes</h2>
+            <p class="section__text">
+              Nuestros clientes tienen diferentes edades, estatus, ocupaciones e
+              intereses, pero tienen una característica común: luchan por la
+              armonía y encuentran alegría en los pequeños placeres de la vida,
+              que crean una atmósfera de comodidad y armonía en su hogar.
+            </p>
+          </div>
+          <div class="feedback__content section__content-descr section--decor">
+            <div class="feedback__slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="feedback__item">
+                    <div class="feedback__item-video">
+                      <img
+                        class="feedback__item-img"
+                        src="images/slide.jpg"
+                        alt=""
+                      />
+                      <button class="feedback__item-videobtn">
+                        <img src="images/btn.svg" />
+                      </button>
+                    </div>
+                    <div class="feedback__item-content">
+                      <a href="#" class="feedback__item-sociallink">
+                        <img src="images/instagram.svg" alt="" />
+                      </a>
+                      <p class="feedback__item-name">Anton Sarutobi</p>
+                      <p class="feedback__item-text">
+                        Pedí una vela en forma de corazón para el Día de San
+                        Valentín para mi novia y ¡fue absolutamente increíble!
+                        El olor era muy agradable y romántico, y la forma de
+                        corazón era perfecta para estas vacaciones. ¡Mi novia
+                        quedó muy contenta con el regalo y definitivamente
+                        ordenaré más velas en este sitio!"
+                      </p>
+                      <button class="button feedback__item-btn">Comprar</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="feedback__item">
+                    <div class="feedback__item-video">
+                      <img
+                        class="feedback__item-img"
+                        src="images/slide.jpg"
+                        alt=""
+                      />
+                      <button class="feedback__item-videobtn">
+                        <img src="images/btn.svg" />
+                      </button>
+                    </div>
+                    <div class="feedback__item-content">
+                      <a href="#" class="feedback__item-sociallink">
+                        <img src="images/instagram.svg" alt="" />
+                      </a>
+                      <p class="feedback__item-name">Anton Sarutobi</p>
+                      <p class="feedback__item-text">
+                        Pedí una vela en forma de corazón para el Día de San
+                        Valentín para mi novia y ¡fue absolutamente increíble!
+                        El olor era muy agradable y romántico, y la forma de
+                        corazón era perfecta para estas vacaciones. ¡Mi novia
+                        quedó muy contenta con el regalo y definitivamente
+                        ordenaré más velas en este sitio!"
+                      </p>
+                      <button class="button feedback__item-btn">Comprar</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="feedback__item">
+                    <div class="feedback__item-video">
+                      <img
+                        class="feedback__item-img"
+                        src="images/slide.jpg"
+                        alt=""
+                      />
+                      <button class="feedback__item-videobtn">
+                        <img src="images/btn.svg" />
+                      </button>
+                    </div>
+                    <div class="feedback__item-content">
+                      <a href="#" class="feedback__item-sociallink">
+                        <img src="images/instagram.svg" alt="" />
+                      </a>
+                      <p class="feedback__item-name">Anton Sarutobi</p>
+                      <p class="feedback__item-text">
+                        Pedí una vela en forma de corazón para el Día de San
+                        Valentín para mi novia y ¡fue absolutamente increíble!
+                        El olor era muy agradable y romántico, y la forma de
+                        corazón era perfecta para estas vacaciones. ¡Mi novia
+                        quedó muy contenta con el regalo y definitivamente
+                        ordenaré más velas en este sitio!"
+                      </p>
+                      <button class="button feedback__item-btn">Comprar</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="feedback__item">
+                    <div class="feedback__item-video">
+                      <img
+                        class="feedback__item-img"
+                        src="images/slide.jpg"
+                        alt=""
+                      />
+                      <button class="feedback__item-videobtn">
+                        <img src="images/btn.svg" />
+                      </button>
+                    </div>
+                    <div class="feedback__item-content">
+                      <a href="#" class="feedback__item-sociallink">
+                        <img src="images/instagram.svg" alt="" />
+                      </a>
+                      <p class="feedback__item-name">Anton Sarutobi</p>
+                      <p class="feedback__item-text">
+                        Pedí una vela en forma de corazón para el Día de San
+                        Valentín para mi novia y ¡fue absolutamente increíble!
+                        El olor era muy agradable y romántico, y la forma de
+                        corazón era perfecta para estas vacaciones. ¡Mi novia
+                        quedó muy contenta con el regalo y definitivamente
+                        ordenaré más velas en este sitio!"
+                      </p>
+                      <button class="button feedback__item-btn">Comprar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="promo">
+        <div class="container promo__inner">
+          <p class="promo__text">Compre más cursos y ahorre más</p>
+          <a class="promo__link"> Ver catalogo</a>
+        </div>
+      </section>
+
+      <section class="contacts">
+        <div class="container contacts__inner">
+          <form class="form" action="">
+            <p class="form__title">Cuentanos</p>
+            <input class="form__input" type="text" placeholder="Nombre" />
+            <input class="form__input" type="email" placeholder="E-mail" />
+            <button class="form__btn">Enviar</button>
+          </form>
+          <img class="contacts__img" src="images/contacts.jpg" alt="" />
+        </div>
+      </section>
+    </main>
+
+    <!--Footer-->
+    <div class="footer">
+      <div class="container footer__inner">
+        <a href="#" class="logo"
+          ><img src="/images/logo-white.png" alt="" class="logo__img"
+        /></a>
+
+        <nav class="menu footer__menu">
+          <ul class="menu__list menu footer__menu-list">
+            <li class="menu__list-item">
+              <a href="#" class="menu__list-link">Nosotros</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#" class="menu__list-link">Catalogo</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#" class="menu__list-link">Equipo</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#" class="menu__list-link">Reseñas</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#" class="menu__list-link">Cursos</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#" class="menu__list-link">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="footer__contacts">
+          <a href="tel:+34633658858" class="phone">+34 633 65 88 58</a>
+          <a href="mailto:candelsCandels@gmail.com" class="email"
+            >candelsCandels@gmail.com</a
+          >
+          <ul class="footer__social">
+            <li class="footer__social-item">
+              <a href="#" class="footer__social-link"
+                ><img
+                  src="/images/facebook.svg"
+                  alt=""
+                  class="footer__social-img"
+              /></a>
+            </li>
+            <li class="footer__social-item">
+              <a href="#" class="footer__social-link"
+                ><img
+                  src="/images/instagram.svg"
+                  alt=""
+                  class="footer__social-img"
+              /></a>
+            </li>
+            <li class="footer__social-item">
+              <a href="#" class="footer__social-link"
+                ><img
+                  src="/images/linkedin.svg"
+                  alt=""
+                  class="footer__social-img"
+              /></a>
+            </li>
+            <li class="footer__social-item">
+              <a href="#" class="footer__social-link"
+                ><img
+                  src="/images/youtube.svg"
+                  alt=""
+                  class="footer__social-img"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
